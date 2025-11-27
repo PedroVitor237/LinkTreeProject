@@ -1,0 +1,30 @@
+img {
+    border-radius: 25%; /*or 75px*/
+    width: 25%;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+body {
+    background-color: rgb(146, 133, 114);
+    font-family: Trebuchet MS;
+    color: white;
+    text-align: center;
+    background: linear-gradient(to bottom right, #4d360d, #e0b782);
+}
+
+a {
+    background-color: rgb(233, 218, 195);
+    color: rgb(99, 89, 75);
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    margin-inline: auto;
+    width: 60%;
+    max-width: 50%;
+    display: block;
+    text-align: center;
+}

@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(105, 105, 248);
+    font: normal 15pt arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 16px;
+    padding: 16px;
+    width: 600px;
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.521);
+}
+
+div {
+    text-align: center;
+    padding: 8px;
+}
+
+button {
+    background-color: rgb(62, 62, 168);
+    color: white;
+    border: none;
+    padding: 40px 20px;
+    border-radius: 35px;
+    cursor: pointer;
+    font-size: 14pt;
+    font-family: "Courier New", Courier, monospace;
+}
+
+#voltar {
+    background-color: rgb(62, 62, 168);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 12pt;
+    font-family: "Courier New", Courier, monospace;
+    margin-left: 160px;
+}
+
+#resultado {
+    background-color: rgba(186, 216, 243, 0.747);
+    border: solid 2px black;
+    border-radius: 35px;
+    padding: 15px 15px ;
+    margin-top: 20px;
+    font-size: 16pt;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+}
+
+img {
+    padding-bottom: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
