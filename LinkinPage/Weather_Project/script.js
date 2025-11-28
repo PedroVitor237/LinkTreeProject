@@ -1,3 +1,4 @@
+/* Mostra horário do sistema */
 function carregar() {
     let msg = window.document.getElementById('msg')
     let img = window.document.getElementById('imagem')
@@ -18,15 +19,16 @@ function carregar() {
     }
 }
 
+/* Busca temperatura e velocidade do vento através da API Open-Meteo */
 function buscarClima() {
     const lat = -3.3096; // Latitude de Itapecuru Mirim
     const lon = -44.2489; // Longitude de Itapecuru Mirim
     fetch(`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current_weather=true`)
-        .then(response => response.json())
-        .then(data => {
-            const temperatura = data.current_weather.temperature;
+        .then(response => response.json()) // Converte a resposta em JSON
+        .then(data => { // Manipula os dados recebidos
+            const temperatura = data.current_weather.temperature; 
             const vento = data.current_weather.windspeed;
-            const resultadoDiv = document.getElementById('resultado');
+            const resultadoDiv = document.getElementById('resultado'); 
             resultadoDiv.innerHTML = `<p>Temperatura atual: ${temperatura}°C</p><p>Velocidade do vento: ${vento} km/h</p>`;
         })
         .catch(error => {
