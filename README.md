@@ -1,4 +1,4 @@
 # LinkPageProject
-A **Link Page** project first coded on Mimo mobile app.
+A **Link Page** project initially coded on the Mimo mobile app.
 
-First coded on Mimo mobile app, but I implemented some features for showing to other students. With a link to a project about weather and time, using the **Open Meteo's API** for one of the functions.
+It was first built on the Mimo mobile app, but I later implemented additional features to showcase to other students. It also includes a link to a project about weather and time, using the **Open-Meteo API** for one of the functions.
